@@ -1,10 +1,10 @@
 # HSFuzz - Web Fuzzer
 
-<<<<<<< HEAD
+ HEAD
 HSFuzz is a versatile, asynchronous web fuzzing tool designed for security researchers and penetration testers. It supports directory enumeration, POST-based fuzzing, login brute force, OTP brute force, and more.
 =======
 HSFuzz is a versatile, asynchronous web fuzzing tool designed for security researchers and penetration testers. It supports directory enumeration, POST-based fuzzing, login brute-forcing, and OTP brute-forcing.
->>>>>>> 1b6e526bb640d5333741885a382bf2a382b5728a
+ 1b6e526bb640d5333741885a382bf2a382b5728a
 
 ## Features
 - **Asynchronous Requests**: High-speed concurrent requests with `aiohttp`.
