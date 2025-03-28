@@ -23,7 +23,6 @@ cd hsfuzz
 
 ## Installation
 1. Clone the repository:
-<<<<<<< HEAD
    bash
    git clone https://github.com/Shubham-sys-web/hsfuzz.git
    cd hsfuzz
@@ -62,7 +61,6 @@ python3 hsfuzz.py -u http://example.com/verify -w dummy.txt -X POST -d "otp=OTP"
 ## License
 MIT License
 
-=======
    ```bash
    git clone https://github.com/Shubham-sys-web/hsfuzz.git
    cd hsfuzz
@@ -91,4 +89,4 @@ Grok 3 (xAI): Enhancements and Features
 
 #License
 MIT License
->>>>>>> 1b6e526bb640d5333741885a382bf2a382b5728a
+ 1b6e526bb640d5333741885a382bf2a382b5728a
