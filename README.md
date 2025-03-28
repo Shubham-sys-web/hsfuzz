@@ -26,17 +26,17 @@ HSFuzz is a versatile, asynchronous web fuzzing tool designed for security resea
 ## Usage ⚡
 
 ### Directory Fuzzing
-bash
+
 python3 hsfuzz.py -u http://example.com -w wordlist.txt -t 50 -fc 403,404 -o results.txt
 
 
 ### Login Brute Force
-bash
+
 python3 hsfuzz.py -u http://example.com/login -w dummy.txt -X POST -d "username=USERNAME&password=PASSWORD" --brute-login --username admin --password-list passwords.txt
 
 
 ### OTP Brute Force
-bash
+
 python3 hsfuzz.py -u http://example.com/verify -w dummy.txt -X POST -d "otp=OTP" --brute-otp --otp-range 0000-9999 -o otp_results.txt
 
 
