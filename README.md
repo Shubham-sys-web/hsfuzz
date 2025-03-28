@@ -3,15 +3,15 @@
 HSFuzz is a versatile, asynchronous web fuzzing tool designed for security researchers and penetration testers. It supports directory enumeration, POST-based fuzzing, login brute-forcing, and OTP brute-forcing.
 
 ## Features
-
-- **Asynchronous Requests**: High-speed concurrent requests with aiohttp.
-- **GET and POST Support**: Fuzz URLs or POST data with FUZZ.
+- **Asynchronous Requests**: High-speed concurrent requests with `aiohttp`.
+- **GET and POST Support**: Fuzz URLs or POST data with `FUZZ`.
 - **Login Brute Force**: Test username/password combinations.
 - **OTP Brute Force**: Brute force OTP fields with a custom range.
 - **Proxy Support**: Route traffic through proxies.
 - **Output Saving**: Save results to a file.
 - **Custom Headers**: Add headers for advanced testing.
 - **Status Code Filtering**: Filter out unwanted responses.
+
 
 ## Installation
 
