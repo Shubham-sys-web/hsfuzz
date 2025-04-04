@@ -14,12 +14,12 @@ HSFuzz is a versatile, asynchronous web fuzzing tool designed for security resea
 
 ## Installation
 1. Clone the repository:
-   ```bash
+   
    git clone https://github.com/Shubham-sys-web/hsfuzz.git
    cd hsfuzz
    
 2. Install dependencies:
-   bash
+
    pip3 install aiohttp colorama
    
 
